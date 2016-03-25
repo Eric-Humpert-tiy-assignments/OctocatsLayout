@@ -48,5 +48,39 @@ table {
 }
 
 .octocat {
-  border: solid 2px #CACACA;
+  outline: solid 2px red;
+  float: left;
+  width: 33.33333%;
+}
+
+.octocat img {
+  width: 100%;
+}
+
+.authors img {
+  width: 30px;
+  vertical-align: middle;
+}
+
+.image-footer {
+  overflow: auto;
+  outline: solid 1px blue;
+  position: relative;
+}
+
+.image-number {
+  float: left;
+  padding: 7px 0;
+  width: 50px;
+}
+
+.image-caption {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  width: 70%;
+}
+
+.authors, .authors li {
+  display: inline;
 }
