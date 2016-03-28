@@ -48,28 +48,33 @@ table {
 }
 
 .octocat {
-  outline: solid 2px red;
   float: left;
   width: 33.33333%;
 }
 
 .octocat img {
+	outline: solid 1px #777778;
   width: 100%;
 }
 
 .authors img {
+	border-radius: 5px;
   width: 30px;
   vertical-align: middle;
 }
 
 .image-footer {
+	border-bottom: solid 1px #777778;
+	color: #777778;
+	font-family: sans-serif;
   overflow: auto;
-  outline: solid 1px blue;
+	padding: 5%;
   position: relative;
 }
 
 .image-number {
   float: left;
+	font-weight: bold;
   padding: 7px 0;
   width: 50px;
 }
@@ -79,6 +84,12 @@ table {
   right: 0;
   text-align: right;
   width: 70%;
+}
+
+.image-caption a {
+	color: #292929;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 .authors, .authors li {
