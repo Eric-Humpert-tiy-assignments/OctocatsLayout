@@ -49,11 +49,13 @@ table {
 
 .octocat {
   float: left;
-  width: 33.33333%;
+	margin: 1%;
+  width: 31.33%;
 }
 
 .octocat img {
-	outline: solid 1px #777778;
+	border: solid 1px #777778;
+	border-radius: 5px;
   width: 100%;
 }
 
